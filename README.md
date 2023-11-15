@@ -60,8 +60,11 @@ Berikut ini merupakan langkah-langkah cara menginstal apache2 dan wordpress
 
 2. **Buka browser**
     Open a browser on your host machine.
+   
+   ![Apache2](https://github.com/MUHTADIN345/cara-instal-apache-dan-wordpress-di-ubuntu-server/assets/126330305/de2b4a51-0450-422c-a565-275f080d7ddd)
 
-3. **Enter the IP Address:**
+
+4. **Enter the IP Address:**
     Enter the IP address of your virtual machine in your host machine's browser. The default Apache2 page should appear.
    
 
