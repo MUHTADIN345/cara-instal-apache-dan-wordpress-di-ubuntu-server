@@ -59,124 +59,122 @@ Berikut ini merupakan langkah-langkah cara menginstal apache2 dan wordpress
     ```
 
 2. **Buka browser**
-    Open a browser on your host machine.
+    kemudian buka browser Anda.
+
+4. **Masukkan Alamat IP**
+    Masukkan alamat IP komputer virtual Anda di browser komputer host Anda. Halaman Apache2 default akan muncul.
    
    ![Apache2](https://github.com/MUHTADIN345/cara-instal-apache-dan-wordpress-di-ubuntu-server/assets/126330305/de2b4a51-0450-422c-a565-275f080d7ddd)
-
-
-4. **Enter the IP Address:**
-    Enter the IP address of your virtual machine in your host machine's browser. The default Apache2 page should appear.
    
-
-## Remote Access to Ubuntu Server
+## Akses dengan Jarak Jauh melalui Server Ubuntu.
 
 ### Command Prompt
 
-1. **Open Command Prompt:**
-    Open Command Prompt on the host machine.
+1. **Buka Command Prompt**
+    Buka Command Prompt pada mesin host.
 
-2. **SSH into the Server:**
+2. **SSH ke Server**
     ```bash
     ssh username@ip.address
     ```
-    Replace "username" with your Ubuntu server username and "ip.address" with your Ubuntu server's IP address.
+    Ganti "username" dengan username server Ubuntu Anda dan "ip.address" dengan alamat IP server Ubuntu Anda.
 
 3. **Log In:**
-    Type 'yes,' then log in by entering your Ubuntu server username and password.
+    Ketik 'yes, lalu masuk dengan memasukkan nama pengguna dan kata sandi server Ubuntu Anda.
 
 ### PuTTY
 
-1. **Open PuTTY:**
-    Open PuTTY on your host machine.
+1. **buka PuTTY:**
+    Buka PuTTY di mesin host Anda.
 
-2. **Enter IP Address:**
-    Enter your IP address, then click Open.
+2. **masukkan IP Address:**
+    Masukkan alamat IP Anda, lalu klik Buka.
 
-3. **Accept Connection:**
-    Click Accept.
-
-4. **Log In:**
-    Log in by entering your Ubuntu server username and password.
+3. **Terima Koneksi**
+    Klik Terima.
+   
+5. **Log In:**
+    Masuk dengan memasukkan nama pengguna dan kata sandi server Ubuntu Anda.
 
 ### Ubuntu Desktop
 
 1. **Open Ubuntu Desktop in VirtualBox:**
     Open Ubuntu Desktop in VirtualBox.
 
-2. **Open Terminal:**
-    Open Terminal in Ubuntu Desktop.
+2. **buka Terminal:**
+    buka terminal di ubuntu desktop
 
-3. **SSH into the Server:**
+3. **SSH ke Server**
     ```bash
     ssh username@ip.address
     ```
-    Replace "username" with your Ubuntu server username and "ip.address" with your Ubuntu server's IP address. Type 'yes' and log in by entering your Ubuntu server password.
+    Ganti "nama pengguna" dengan nama pengguna server Ubuntu Anda dan "alamat ip" dengan alamat IP server Ubuntu Anda. Ketik 'ya' dan masuk dengan memasukkan kata sandi server Ubuntu Anda.
 
 ## Install MySQL
 
-1. **Install MariaDB:**
-    ```bash
-    sudo apt install mariadb-server mariadb-client
-    ```
-2. **Configure MariaDB:**
-   ```bash
-    sudo mysql_secure_installation
-    ```
+1. **Instal MariaDB:**
+     ``` bash
+     sudo apt install mariadb-server mariadb-client
+     ```
+2. **Konfigurasi MariaDB:**
+    ``` bash
+     sudo mysql_secure_installation
+     ```
 
 ## Install PHP
 
-1. **Install PHP and PHP-MySQL Extension:**
-    ```bash
-    sudo apt install php php-mysql
-    ```
+1. **Instal Ekstensi PHP dan PHP-MySQL:**
+     ``` bash
+     sudo tepat instal php php-mysql
+     ```
 
-2. **Configure PHP Info Page:**
-    ```bash
-    sudo nano /var/www/html/info.php
-    ```
+2. **Konfigurasi Halaman Info PHP:**
+     ``` bash
+     sudo nano /var/www/html/info.php
+     ```
 
-3. **Add PHP Info Code:**
-    ```bash
-    <?php
-    phpinfo();
-    ?>
-    ```
+3. **Tambahkan Kode Info PHP:**
+     ``` bash
+     <?php
+     phpinfo();
+     ?>
+     ```
 
-4. **Open Browser:**
+4. **Buka Browser:**
 
-   Open your browser and navigate to:
-    ```bash
-    ip-address/info.php
-    ```
-    Replace ip-address with your Ubuntu server's IP address. Check the IP address with the command hostname -I.
+    Buka browser Anda dan navigasikan ke:
+     ``` bash
+     ip-address/info.php
+     ```
+     Ganti alamat ip dengan alamat IP server Ubuntu Anda. Cek IP Address dengan perintah hostname -I.
 
-## Create WordPress Database
+## Buat WordPress Database
 
-1. **Access MySQL:**
-    ```bash
-    sudo mysql -u root -p
-    ```
+1. **Akses MySQL:**
+     ``` bash
+     sudo mysql -u root -p
+     ```
 
-2. **Create Database:**
-    ```bash
-    CREATE DATABASE wordpress;
-    ```
+2. **Buat Database:**
+     ``` bash
+     CREATE DATABASE wordpress;
+     ```
 
-3. **Create User:**
-    ```bash
-    CREATE USER 'wordpress_user'@'localhost' IDENTIFIED BY 'password';
-    ```
+3. **Buat Pengguna:**
+     ``` bash
+     CREATE USER 'wordpress_user'@'localhost' IDENTIFIED BY 'password';
+     ```
 
-4. **Grant Permissions:**
-    ```bash
-    GRANT ALL ON wordpress.* TO 'wordpress_user'@'localhost' IDENTIFIED BY 'password';
-    ```
+4. **Berikan Izin:**
+     ``` bash
+     GRANT ALL ON wordpress.* TO 'wordpress_user'@'localhost' IDENTIFIED BY 'password';
+     ```
 
-5. **Flush Privileges:**
-    ```bash
-    FLUSH PRIVILEGES;
+5. **Grant Permissions:**
+     ``` bash
+     FLUSH PRIVILEGES;
     Exit;
-    ```
+     ```
 
 ## Install WordPress
 
@@ -201,19 +199,19 @@ Berikut ini merupakan langkah-langkah cara menginstal apache2 dan wordpress
    sudo chmod -R 755 /var/www/html/wordpress/
    ```
    
-5. **Create Uploads Directory**
+5. **Membuat Uploads Directory**
    ```bash
    sudo mkdir /var/www/html/wordpress/wp-content/uploads
    sudo chown -R www-data:www-data /var/www/html/wordpress/wp-content/uploads/
    ```
 
-6. **Open WordPress in Browser:**
+6. **buka WordPress di Browser:**
 
    Navigate to:
    ```bash
    ip-address/wordpress
    ```
-   Replace ip-address with your Ubuntu server's IP address.
+   Ganti alamat ip dengan alamat IP server Ubuntu Anda.
    ![1](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/blob/main/pict/22.png)
 
 7. **WordPress Installation:**
