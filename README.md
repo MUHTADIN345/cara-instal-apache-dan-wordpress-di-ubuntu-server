@@ -217,24 +217,37 @@ Berikut ini merupakan langkah-langkah cara menginstal apache2 dan wordpress
 7. **Instalasi WordPress:**
 
    - Click "Let's go!"
+     
      ![2](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/blob/main/pict/23.png)
      
+     
    - Masukkan informasi database Anda.
+     
      ![3](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/blob/main/pict/24.png)
      
+     
    - klik "Run the installation."
+     
      ![4](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/blob/main/pict/25.png)
      
+     
    - Masukkan informasi Anda.
+     
      ![5](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/blob/main/pict/26.png)
      
+     
    - Masukkan username dan password.
+     
      ![6](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/blob/main/pict/28.png)
+     
      klik "Log In.".
 
 ## Hasil dari WordPress
 
    - hasil dari wordpress
+
+     <img width="1000" alt="Screenshot 2023-11-16 152648" src="https://github.com/MUHTADIN345/cara-instal-apache-dan-wordpress-di-ubuntu-server/assets/126330305/c66f95b1-223e-4a84-bc07-81f79d46fca7">
+
 
      
      
