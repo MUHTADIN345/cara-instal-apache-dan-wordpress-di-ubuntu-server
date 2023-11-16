@@ -214,29 +214,28 @@ Berikut ini merupakan langkah-langkah cara menginstal apache2 dan wordpress
    Ganti alamat ip dengan alamat IP server Ubuntu Anda.
    ![1](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/blob/main/pict/22.png)
 
-7. **WordPress Installation:**
+7. **Instalasi WordPress:**
 
    - Click "Let's go!"
      ![2](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/blob/main/pict/23.png)
-   - Enter your database information.
+     
+   - Masukkan informasi database Anda.
      ![3](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/blob/main/pict/24.png)
-   - Click "Run the installation."
+     
+   - klik "Run the installation."
      ![4](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/blob/main/pict/25.png)
-   - Enter your information.
+     
+   - Masukkan informasi Anda.
      ![5](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/blob/main/pict/26.png)
-   - Enter your username and password.
+     
+   - Masukkan username dan password.
      ![6](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/blob/main/pict/28.png)
-     And then click "Log In.".
+     klik "Log In.".
 
-## Create WordPress Post
+## Hasil dari WordPress
 
-   - Go to Menu -> Post -> All Post, then click "Add New."
+   - hasil dari wordpress
+
      
-   - Write your post content.
      
-   - Once the content is ready, click "Publish."
-     ![8](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/blob/main/pict/32.png)
-   - Click "Publish" again.
-     ![10](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/blob/main/pict/33.png)
-   - Finished! You can view your post by clicking "View Post."
-     ![11](https://github.com/NauvalPerdana/Apache2-and-WordPress-Installation/blob/main/pict/34.png)
+   
