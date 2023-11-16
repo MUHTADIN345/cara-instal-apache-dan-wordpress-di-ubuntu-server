@@ -3,7 +3,7 @@
 Berikut ini merupakan langkah-langkah cara menginstal apache2 dan wordpress
 
 ## Table of Contents
-- [Install Apache2](#install-apache2)
+- [install apache2 di ubuntuserver](#install-apache2-di-ubuntuserver)
 - [Firewall Configuration](#firewall-configuration)
 - [Accessing the Apache2 Web Server in a Browser](#accessing-the-apache2-web-server-in-a-browser)
 - [Remote Access to Ubuntu Server](#remote-access-to-ubuntu-server)
