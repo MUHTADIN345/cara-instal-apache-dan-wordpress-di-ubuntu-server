@@ -2,16 +2,16 @@
 
 Berikut ini merupakan langkah-langkah cara menginstal apache2 dan wordpress
 
-## Table of Contents
+## Daftar Isi
 - [install apache2 di ubuntuserver](#install-apache2-di-ubuntuserver)
-- [Firewall Configuration](#firewall-configuration)
-- [Accessing the Apache2 Web Server in a Browser](#accessing-the-apache2-web-server-in-a-browser)
-- [Remote Access to Ubuntu Server](#remote-access-to-ubuntu-server)
-- [Install MySQL](#install-mysql)
-- [Install PHP](#install-php)
-- [Create WordPress Database](#create-wordpress-database)
-- [Install WordPress](#install-wordpress)
-- [Create WordPress Post](#create-wordpress-post)
+- [Konfigurasi Firewall](#Konfigurasi-Firewall)
+- [Mengakses Server Web Apache2 di Browser](#Mengakses-Server-Web-Apache2-di-Browser)
+- [Akses dengan Jarak Jauh melalui Server Ubuntu](#Akses-dengan-Jarak-Jauh-melalui-Server-Ubuntu)
+- [Install MySQL](#Install-MySQL)
+- [Install PHP](#Install-PHP)
+- [Buat WordPress Database](#Buat-WordPress-Database)
+- [Install WordPress](#Install-WordPress)
+- [Hasil dari WordPress](#Hasil-dari-WordPress)
 
 ## install apache2 di ubuntuserver
 
@@ -66,7 +66,7 @@ Berikut ini merupakan langkah-langkah cara menginstal apache2 dan wordpress
    
    ![Apache2](https://github.com/MUHTADIN345/cara-instal-apache-dan-wordpress-di-ubuntu-server/assets/126330305/de2b4a51-0450-422c-a565-275f080d7ddd)
    
-## Akses dengan Jarak Jauh melalui Server Ubuntu.
+## Akses dengan Jarak Jauh melalui Server Ubuntu
 
 ### Command Prompt
 
@@ -188,12 +188,12 @@ Berikut ini merupakan langkah-langkah cara menginstal apache2 dan wordpress
     sudo tar -xzvf latest.tar.gz
     ```
 
-3. **Move WordPress Files**
+3. **Memindahkan File WordPress**
    ```bash
    sudo cp -R wordpress /var/www/html/
    ```
    
-4. **Set Permissions**
+4. **Mengatur Izin**
    ```bash
    sudo chown -R www-data:www-data /var/www/html/wordpress/
    sudo chmod -R 755 /var/www/html/wordpress/
